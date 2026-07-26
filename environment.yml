@@ -1,0 +1,13 @@
+name: techscout
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - sqlmodel==0.0.22
+    - selenium==4.25.0
+    - webdriver-manager==4.0.2
+    - black==24.10.0
+    - flake8==7.1.1
+    - pytest==8.3.3
